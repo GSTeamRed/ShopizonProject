@@ -2,7 +2,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 
+    <div>
 
+        <asp:DropDownList ID="DropDownList3" runat="server">
+            <asp:ListItem>Credit Card</asp:ListItem>
+            <asp:ListItem>Debit Card</asp:ListItem>
+        </asp:DropDownList>
+
+    </div>
     <table class="nav-justified">
         <tr>
             <td style="width: 185px">First Name:</td>
@@ -17,7 +24,7 @@
             </td>
         </tr>
         <tr>
-            <td style="width: 185px">Credit/Debit Card Number:</td>
+            <td style="width: 185px">Credit Card Number:</td>
             <td>
                 <asp:TextBox ID="TextBox3" runat="server" Width="200px"></asp:TextBox>
             </td>
